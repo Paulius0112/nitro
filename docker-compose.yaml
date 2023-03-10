@@ -288,7 +288,7 @@ services:
       - "config:/config"
     depends_on:
       - redis
-
+testing
   relay:
     pid: host
     image: nitro-node-dev-testnode
